@@ -15,6 +15,7 @@ print("age:{}, Height:{}".format(age, height))
 
 
 # 특수문자
+print("Hello\n World")
 print("\"Hello World\"")
 print("!@#$%^&")
 
