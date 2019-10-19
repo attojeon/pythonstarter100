@@ -1,14 +1,16 @@
+
+
+# settings
 board = []
 line = []
 for x in range(19):
-    board = []
+    line = []
     for y in range(19):
         line.append(0)
     board.append(line)
 
+# display
 
-for x in range(19):
-    line = board[x]
-    print(line)
-    print('\n')
+for line in board:
+    print('{}\n'.format( line))
     
