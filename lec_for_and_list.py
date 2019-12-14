@@ -9,17 +9,17 @@ print(mylist)
 # 위와 같은 리스트를 만들어 보자
 ## 리스트 비우기
 mylist = []
-print("2의 곱")
+print("2의 곱수들")
 for x in range(100):
-    num = 2 ** x
+    num = 2 * x
     mylist.append(num)
 
 print(mylist)
 
 mylist = []
 print("2의 거듭제곱")
-for x in range(100):
-    mum = 2^x
+for x in range(20):
+    num = 2 ** x
     mylist.append(num)
 
 print(mylist)
